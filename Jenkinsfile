@@ -7,7 +7,7 @@ pipeline {
         // Add your build command here
       }
     }
-    stage('Test')
+    stage('Test') {
     steps {
       echo 'Running Tests..'
       // add your test command here
