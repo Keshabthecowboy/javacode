@@ -12,6 +12,7 @@ pipeline {
         stage('issue1') {
           steps {
             echo 'this is issue1'
+            sh 'echo "This is issue1"'
           }
         }
 
